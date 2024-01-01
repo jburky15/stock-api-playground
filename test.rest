@@ -1,0 +1,10 @@
+###
+GET http://localhost:5000/api/stock?stock=pypl
+
+### 
+POST http://localhost:5000/api/test
+Content-Type: application/json
+
+{
+    "message": "It appears to be working just fine on my end!"
+}
