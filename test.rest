@@ -1,5 +1,5 @@
 ###
-GET http://localhost:5000/api/stock?stock=pypl
+GET http://localhost:5000/api/stock?stock=pypl&password=1234
 
 ### 
 POST http://localhost:5000/api/test
@@ -8,3 +8,6 @@ Content-Type: application/json
 {
     "message": "It appears to be working just fine on my end!"
 }
+
+###
+GET http://localhost:5000/api/testParams/dynamicWord
